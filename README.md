@@ -46,5 +46,10 @@ At most 104 calls will be made to put, get, and remove.
    - if the key is not found, return -1
  - def remove(self, key: int) -> None: Search for the key in the list
    - if the key is found remove the key-value pair
- 
+ ## Image Credits
+
+- **Image Name**: Basic structure of Hash Mapping.
+  - **Source**: [Components-of-Hashing.webp](https://media.geeksforgeeks.org/wp-content/uploads/20240508162721/Components-of-Hashing.webp)
+  - **License**: [Copyright Rules for Community](https://www.geeksforgeeks.org/legal/intellectual-property-rights-legal/)
+  - **Creator**: []
 
