@@ -30,9 +30,21 @@ myHashMap.put(2, 1); // The map is now [[1,1], [2,1]] (i.e., update the existing
 myHashMap.get(2);    // return 1, The map is now [[1,1], [2,1]]
 myHashMap.remove(2); // remove the mapping for 2, The map is now [[1,1]]
 myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
- 
-
 Constraints:
 
 0 <= key, value <= 106
 At most 104 calls will be made to put, get, and remove.
+
+
+# Solution:
+ - def __init__: Initalize the object with an empty list to sort key-value pairs
+ - def put(self, key: int, value: int) -> None: Check if the key already exists in the list
+   - if the key does exist, update the value
+   - if the key doesn't exist, append the new key-value pair
+ - def get(self, key: int) -> int: Search for the key in the list
+   - if the key is found, return the corresponding value
+   - if the key is not found, return -1
+ - def remove(self, key: int) -> None: Search for the key in the list
+   - if the key is found remove the key-value pair
+ 
+
